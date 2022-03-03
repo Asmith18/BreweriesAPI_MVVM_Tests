@@ -19,9 +19,10 @@ struct BreweryResults: Decodable {
         case breweryType = "brewery_type"
         case street
     }
+    
     let name: String
     let city: String
     let state: String
     let breweryType: String
-    let street: String
+    let street: String?
 }

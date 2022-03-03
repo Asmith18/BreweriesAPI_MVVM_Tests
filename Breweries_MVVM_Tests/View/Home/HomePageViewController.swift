@@ -20,6 +20,5 @@ class HomePageViewController: UIViewController {
         navigationItem.searchController = UISearchController(searchResultsController: viewController)
         navigationItem.hidesSearchBarWhenScrolling = false
         navigationItem.searchController?.searchBar.delegate = viewController as? UISearchBarDelegate
-        navigationItem.searchController?.searchBar.scopeButtonTitles = ["State", "City"]
     }
 }

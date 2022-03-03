@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="141" y="197"/>
         </scene>
-        <!--Home Page View Controller-->
+        <!--Search Brewery-->
         <scene sceneID="cpq-eb-RaB">
             <objects>
                 <viewController id="ykt-fH-nBU" customClass="HomePageViewController" customModule="Breweries_MVVM_Tests" customModuleProvider="target" sceneMemberID="viewController">
@@ -34,7 +34,7 @@
                         <viewLayoutGuide key="safeArea" id="qfo-QE-SQ5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="FyB-U7-mZT"/>
+                    <navigationItem key="navigationItem" title="Search Brewery" id="saw-Se-f0J"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M2k-lJ-rKp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

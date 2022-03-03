@@ -25,5 +25,6 @@ class BreweryTableViewCell: UITableViewCell {
         TitleNameLabel.text = object.name
         addressTextLabel.text = object.street
         typeTitleLabel.text = object.breweryType
+        locationNameLabel.text = "\(object.city)/\(object.state)"
     }
 }

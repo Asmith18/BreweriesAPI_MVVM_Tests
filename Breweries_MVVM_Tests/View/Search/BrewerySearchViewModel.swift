@@ -29,7 +29,7 @@ class BrewerySearchViewModel {
         dataProvider.fetch(from: endpoint) { [weak self] result in
             switch result {
             case .success(let list):
-                self?.seachObjects = list.results
+                self?.seachObjects = list
                 self?.delegate?.searchResultsLoadedSuccessfully()
             case.failure(let error):
                 print("\(error.localizedDescription)")
